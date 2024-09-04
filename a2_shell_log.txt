@@ -1,11 +1,7 @@
-  138  cd CS131_fa24_datafiles/
-  139  egrep "^wor.*"
-  140  ls
-  141  cd Lec02/
-  142  ls
-  143  egrep "^wor.*" goodluck.txt 
-  144  vi goodluck.txt 
-  145  egrep "wor" goodluck.txt 
-  146  egrep "dred" goodluck.txt 
-  147  egrep "wor.*" goodluck.txt 
-  148  history > ~/mini-assignments-stevenguyen104/a2_shell_log.txt 
+  171  cd CS131_fa24_datafiles/
+  172  cd Lec02/
+  173  grep "\<wor\w" goodluck.txt 
+  174  grep "\wdred" goodluck.txt 
+  175  grep "dred\w" goodluck.txt 
+  176  grep "dred" goodluck.txt 
+  177  history > ~/mini-assignments-stevenguyen104/a2_shell_log.txt 

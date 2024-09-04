@@ -1,0 +1,16 @@
+  205  cd CS131_fa24_datafiles/
+  206  cd Lec02/
+  207  grep -o  "\bwor\w*" goodluck.txt 
+  208  grep -o  "dred\w*" goodluck.txt 
+  209  grep -o  "*dred\w*" goodluck.txt 
+  210  grep -o  ".*dred\w*" goodluck.txt 
+  211  grep -o  "\b.*dred\w*" goodluck.txt 
+  212  grep -o  "\w.*dred\w*" goodluck.txt 
+  213  grep -o  "\w*.*dred\w*" goodluck.txt 
+  214  grep -o  "\w*dred\w*" goodluck.txt 
+  215  grep -o 
+  216  grep -o "Good luck, babe \w*" goodluck.txt 
+  217  grep -o "Good luck, babe \w*" goodluck.txt | wc
+  218  grep -o "Good luck, babe \w*" goodluck.txt | wc > nguyens_a2_counts.txt
+  219  "history > nguyens_a2_cmds.log
+  220  history > nguyens_a2_cmds.log

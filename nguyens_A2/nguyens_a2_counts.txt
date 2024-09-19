@@ -1,0 +1,3 @@
+      6      18     102
+
+The 6 stands for 6 lines, the 18 stands for 18 words, and the 102 stands for 102 bytes

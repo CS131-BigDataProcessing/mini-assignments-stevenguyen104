@@ -1,0 +1,11 @@
+Unique Airlines: American, Alaska, Jet Blue, Delta, United, Southwest 
+
+Command Used: awk -F, '!seen[$4]++ {print $4}' ~/CS131_fa24_datafiles/Lec08/airline_stats.csv
+
+Airlines with a carrier delay greater than 10: Alaska, American, Jet Blue, Southwest, United
+
+Command Used: awk -F, '$1 > 10 {print $4 | "sort"}' ~/CS131_fa24_datafiles/Lec08/airline_stats.csv 
+
+Airlines with a carrier delay greater than a certain threshold of 15: Alaska, American, Jet Blue, Southwest, United
+
+Command Used: awk -v Threshold=15 -F, '$1 > Threshold {print $4 | "sort"}' ~/CS131_fa24_datafiles/Lec08/airline_stats.csv 

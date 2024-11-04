@@ -1,0 +1,5 @@
+Cron or automation could help with monitoring some behavior or sending reports on such behavior. It could also help with recurring updates or patches.
+
+Poorly managed automated tasks could potentially overwrite important information/files, silently fail, or use many resources. In order to avoid these issues, we should implement checks to make sure cron/automated tasks are being run correctly as well as checking for any error messages.
+
+Line for disk usage: 30 8 * * * df -h | mail -s "Disk Usage" steve.nguyen@sjsu.edu

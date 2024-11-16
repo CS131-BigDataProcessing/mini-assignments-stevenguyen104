@@ -1,4 +1,4 @@
 0 2 * * * rm -rf /mnt/scratch/FA24_CS131_Jessica/snguyenfa24/temp
 
-0 3 * * 0 tar -czf /mnt/scratch/FA24_CS131_Jessica/snguyenfa24/backups/backup_$(date + "%D").tar.gz /mnt/scratch/FA24_CS131_Jessica/snguyenfa24
+0 3 * * 0 tar -czf /mnt/scratch/FA24_CS131_Jessica/snguyenfa24/backups/backup_$(date +"%m/%d/%y").tar.gz /mnt/scratch/FA24_CS131_Jessica/snguyenfa24
 

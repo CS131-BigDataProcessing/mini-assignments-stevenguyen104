@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+crime_test.egg-info/PKG-INFO
+crime_test.egg-info/SOURCES.txt
+crime_test.egg-info/dependency_links.txt
+crime_test.egg-info/top_level.txt
